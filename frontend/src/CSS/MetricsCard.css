@@ -1,0 +1,29 @@
+.metrics-card {
+    background: linear-gradient(135deg, #007bff, #00d8ff);
+    color: white;
+    border: none;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .metrics-card h5 {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .metrics-card h3 {
+    font-size: 2rem;
+    margin-top: 10px;
+  }
+  
+  .metrics-card .fa-icon {
+    margin-bottom: 15px;
+  }
+  
+  .metrics-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+  }
+  

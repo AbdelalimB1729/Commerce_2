@@ -1,0 +1,33 @@
+.about-hero {
+    background: linear-gradient(to right, #00b4d8, #90e0ef);
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.about-hero h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.about-hero p {
+    font-size: 20px;
+}
+
+/* Team Section */
+.team-image {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 3px solid #00b4d8;
+}
+
+.team-card {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: none;
+}
+
+.team-card:hover {
+    transform: translateY(-5px);
+    transition: all 0.3s ease-in-out;
+}

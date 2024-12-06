@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css?family=Manrope:400,600&display=swap");
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 30px;
+  background-color: var(--theme-bg-color);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.logo h1 {
+  font-size: 1.8rem;
+  font-family: var(--body-font);
+  color: var(--theme-color);
+}
+
+.search-bar {
+  flex-grow: 1;
+  margin: 0 20px;
+  position: relative;
+}
+
+.search-bar input {
+  width: 100%;
+  padding: 10px 15px;
+  border-radius: 20px;
+  border: 1px solid var(--border-color);
+  font-family: var(--body-font);
+}
+
+.search-bar input::placeholder {
+  color: var(--input-chat-color);
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+}
+
+.nav-links li {
+  margin-left: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: var(--body-color);
+  font-weight: 500;
+  font-family: var(--body-font);
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: var(--theme-color);
+}
+
+.user-settings .user-profile {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.user-icon {
+  font-size: 1.5rem;
+  color: var(--theme-color);
+  cursor: pointer;
+  margin-left: 10px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo-image {
+  width: 40px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.logo h1 {
+  font-size: 1.5rem;
+  color: var(--theme-color);
+}
+
+.logout-button {
+  background: none;
+  border: none;
+  color: inherit;
+  font-size: 1rem;
+  cursor: pointer;
+  text-decoration: underline;
+  padding: 0;
+}
+
